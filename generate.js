@@ -11,6 +11,8 @@ var yellow = "#fff599";
 var green = "#99ff99";
 var gray = "#808080";
 var white = "#ffffff";
+var green2 = "#33ff77";
+var orange = "#ffaa00";
 var conversions = [
     ["dark_defaults.json", "henke_defaults.json"],
     ["dark_plus.json", "henke_plus.json"],
@@ -21,7 +23,7 @@ var conversions = [
     ["#9CDCFE", darkblue],
     ["#569cd6", purple],
     ["#ce9178", yellow],
-    ["#b5cea8", green],
+    ["#b5cea8", orange],
     ["#6A9955", gray],
     ["#d4d4d4", white],
 ];
@@ -35,6 +37,13 @@ var extra = {
             scope: ["punctuation.section.embedded"],
             settings: {
                 foreground: white,
+            },
+        },
+        {
+            name: "tsx/jsx brackets",
+            scope: ["keyword.operator"],
+            settings: {
+                foreground: green2,
             },
         },
     ],

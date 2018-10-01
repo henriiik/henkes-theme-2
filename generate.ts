@@ -10,6 +10,8 @@ const yellow = "#fff599";
 const green = "#99ff99";
 const gray = "#808080";
 const white = "#ffffff";
+const green2 = "#33ff77";
+const orange = "#ffaa00"
 
 const conversions = [
 	["dark_defaults.json", "henke_defaults.json"],
@@ -21,7 +23,7 @@ const conversions = [
 	["#9CDCFE", darkblue], // variable/property name
 	["#569cd6", purple], // storage (const, class, function, extends, new, tsx)
 	["#ce9178", yellow], // strings
-	["#b5cea8", green], // numeric constant
+	["#b5cea8", orange], // numeric constant
 	["#6A9955", gray], // comments
 	["#d4d4d4", white], // text
 ];
@@ -36,6 +38,13 @@ const extra = {
 			scope: ["punctuation.section.embedded"],
 			settings: {
 				foreground: white,
+			},
+		},
+		{
+			name: "tsx/jsx brackets",
+			scope: ["keyword.operator"],
+			settings: {
+				foreground: green2,
 			},
 		},
 	],

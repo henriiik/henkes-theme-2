@@ -42,7 +42,7 @@
 		{
 			"scope": ["constant.numeric"],
 			"settings": {
-				"foreground": "#99ff99"
+				"foreground": "#ffaa00"
 			}
 		},
 		{
@@ -120,7 +120,7 @@
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#99ff99"
+				"foreground": "#ffaa00"
 			}
 		},
 		{
@@ -175,7 +175,7 @@
 		{
 			"scope": "meta.preprocessor.numeric",
 			"settings": {
-				"foreground": "#99ff99"
+				"foreground": "#ffaa00"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 		{
 			"scope": "keyword.other.unit",
 			"settings": {
-				"foreground": "#99ff99"
+				"foreground": "#ffaa00"
 			}
 		},
 		{
@@ -318,7 +318,7 @@
 		{
 			"scope": "constant.sha.git-rebase",
 			"settings": {
-				"foreground": "#99ff99"
+				"foreground": "#ffaa00"
 			}
 		},
 		{
