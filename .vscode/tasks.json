@@ -1,12 +1,10 @@
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=733558
-	// for the documentation about the tasks.json format
 	"version": "2.0.0",
 	"tasks": [
 		{
 			"label": "lol",
 			"type": "shell",
-			"command": "tsc generate.ts && node generate.js",
+			"command": "node_modules/typescript/bin/tsc && node generate.js",
 			"group": {
 				"kind": "build",
 				"isDefault": true

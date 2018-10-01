@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = require("fs");
 var files = ["dark_defaults.json", "dark_plus.json", "dark_vs.json"];
 var cyan = "#33ddff";
@@ -34,10 +34,10 @@ var extra = {
             name: "tsx/jsx brackets",
             scope: ["punctuation.section.embedded"],
             settings: {
-                foreground: white
-            }
+                foreground: white,
+            },
         },
-    ]
+    ],
 };
 files.map(function (file) {
     var path = "./themes/" + file;
