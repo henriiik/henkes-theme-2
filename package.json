@@ -1,22 +1,23 @@
 {
-  "name": "henkes-theme-2",
-  "displayName": "Henke's Theme 2",
-  "description": "",
-  "version": "0.0.1",
-  "publisher": "henriiik",
-  "engines": {
-    "vscode": "^1.27.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Henke's Theme 2",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark_plus.json"
-      }
-    ]
-  }
+	"name": "henkes-theme-2",
+	"displayName": "Henke's Theme 2",
+	"description": "",
+	"version": "0.0.1",
+	"publisher": "henriiik",
+	"engines": {
+		"vscode": "^1.27.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Henke's Theme 2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/henke.json"
+			}
+		]
+	},
+	"license": "MIT"
 }

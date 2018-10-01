@@ -1,7 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Dark+ (default dark)",
-	"include": "./dark_vs.json",
+	"include": "./henke_vs.json",
 	"tokenColors": [
 		{
 			"name": "Function declarations",
@@ -11,7 +11,7 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#33ddff"
 			}
 		},
 		{
@@ -49,7 +49,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#33bbff"
 			}
 		},
 		{
@@ -63,14 +63,14 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#33bbff"
 			}
 		},
 		{
 			"name": "Control flow keywords",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#C586C0"
+				"foreground": "#ff66b3"
 			}
 		},
 		{
@@ -82,14 +82,14 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#668cff"
 			}
 		},
 		{
 			"name": "Object keys, TS grammar specific",
 			"scope": ["meta.object-literal.key"],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#668cff"
 			}
 		},
 		{
@@ -104,7 +104,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#fff599"
 			}
 		},
 		{
@@ -119,7 +119,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#fff599"
 			}
 		},
 		{
@@ -139,7 +139,7 @@
 				"keyword.control.anchor.regexp"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#33ddff"
 			}
 		},
 		{
@@ -151,7 +151,7 @@
 		{
 			"scope": "constant.character",
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#df80ff"
 			}
 		},
 		{

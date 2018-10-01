@@ -1,0 +1,1 @@
+{"$schema":"vscode://schemas/color-theme","name":"Henke's Theme 2","include":"./henke_plus.json","tokenColors":[{"name":"tsx/jsx brackets","scope":["punctuation.section.embedded"],"settings":{"foreground":"#ffffff"}}]}
