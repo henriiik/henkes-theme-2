@@ -19,6 +19,10 @@
 			}
 		]
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/henriiik/henkes-theme-2"
+	},
 	"license": "MIT",
 	"dependencies": {
 		"@types/node": "^10.11.3",

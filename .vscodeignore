@@ -1,4 +1,9 @@
-.vscode/**
+.git*
 .vscode-test/**
-.gitignore
+.vscode/**
+generate*
+node_modules
+themes/dark*
+tsconfig.json
 vsc-extension-quickstart.md
+yarn*
